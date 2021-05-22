@@ -1,3 +1,5 @@
+import React from 'react'
+
 
 class Node {
     constructor(data){
@@ -8,14 +10,13 @@ class Node {
 }
 
 
-node = new Node(5);
-console.log(node.data)
+// class BinarySearchTree;
 
-class BinarySearchTree {
+class BinarySearchTree extends React.Component {
+
     constructor(){
         this.root = null;
     }
-
     insert(data){
         // create a new node
         var node = new Node(data);
@@ -51,20 +52,5 @@ class BinarySearchTree {
             }
         }
     }
+    
 }
-
-import react
-
-// node = new Node(77);
-// var BST = new BinarySearchTree();
-// BST.insert(99);
-// BST.insert(101);
-// BST.insert(1);
-
-
-
-
-// console.log("Root: \t",BST.root.data);
-// // console.log(aTree.root.left.data);
-// console.log("Root->Leftchild: \t", BST.root.left.data)
-// console.log("Root->rightChild: \t",BST.root.right)
