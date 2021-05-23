@@ -1,0 +1,30 @@
+{
+  "name": "binarysearch",
+  "version": "1.0.0",
+  "description": "this is the data-visualization web-app to visualize pointers, sorting algorithms, Trees and Graphs",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevdouglass/vizTree.git"
+  },
+  "keywords": [
+    "example",
+    "data",
+    "visualization"
+  ],
+  "author": "Kevin Douglass",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevdouglass/vizTree/issues"
+  },
+  "homepage": "https://github.com/kevdouglass/vizTree#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
